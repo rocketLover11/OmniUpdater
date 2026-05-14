@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=0.0.1
+Name=Omni-Updater Resume
+Comment=Automatically resumes pending multi-manager package upgrades.
+Exec=x-terminal-emulator -e "sudo omni-updater"
+Terminal=true
+Type=Application
+Categories=System;Utility;
+Icon=system-software-update
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
+X-KDE-autostart-after=panel

@@ -16,7 +16,7 @@ Omni-Updater reads your custom JSON configuration, runs sequentially across dist
 
 Ensure the following tracking dependencies are present on your development environment before compilation:
 
-*   **CMake** (v3.10+)
+*   **CMake** (v3.25+)
 *   **C Compiler** (`gcc` or `clang`)
 *   **cJSON Library** (Development headers)
 
@@ -37,8 +37,8 @@ mkdir build && cd build
 cmake ..
 make
 
-# Install the production binary globally to /usr/local/bin
-sudo make install
+# Create a package archive for your OS
+cpack
 ```
 
 ## System Setup

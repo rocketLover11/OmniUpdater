@@ -1,0 +1,16 @@
+{
+    "package_managers": [
+        {
+            "name": "apt",
+            "enabled": false,
+            "update_cmd": "apt-get update",
+            "upgrade_cmd": "apt-get dist-upgrade -y"
+        },
+        {
+            "name": "flatpak",
+            "enabled": true,
+            "update_cmd": "flatpak update --appstream -y",
+            "upgrade_cmd": "flatpak update -y"
+        }
+    ]
+}
